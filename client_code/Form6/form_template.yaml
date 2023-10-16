@@ -4,10 +4,24 @@ container:
   properties: {html: '@theme:standard-page.html'}
 components:
 - type: ColumnPanel
-  properties: {}
+  properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
+  components: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- type: Label
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: 'UBS
+
+      Investment banking company', font_size: 20, font: a, spacing_above: small, icon_align: left,
+    spacing_below: small, italic: false, background: '', bold: false, underline: true,
+    icon: ''}
+  name: label_1
+  layout_properties: {slot: title}
+- type: Image
+  properties: {height: 47}
+  name: image_1
+  layout_properties: {grid_position: 'LDGPKJ,WKYGTP', slot: top-left-btn}
