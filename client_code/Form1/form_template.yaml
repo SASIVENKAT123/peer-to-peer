@@ -7,18 +7,31 @@ components:
   properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
+  components:
+  - type: Image
+    properties: {role: null, vertical_align: bottom, height: 398, tooltip: '', border: '',
+      foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: large,
+      source: 'https://images.moneycontrol.com/static-mcnews/2021/10/p2p-article-01.jpg',
+      spacing_below: none, background: '', horizontal_align: center}
+    name: image_2
+    layout_properties: {grid_position: 'BTSJDY,IJFCKE'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
   components:
   - type: Label
-    properties: {}
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Borrow, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
     name: label_3
     layout_properties: {}
   - type: Label
-    properties: {}
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Lend, font_size: 14, font: a, spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: false, underline: false,
+      icon: ''}
     name: label_2
     layout_properties: {grid_position: 'SYCMHJ,EXPZAK'}
   - type: Label
@@ -51,10 +64,10 @@ components:
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: primary_color_1
-    layout_properties: {}
+    layout_properties: {width: 96.225}
   - type: Button
     properties: {role: secondary-color, align: center, tooltip: '', border: '', enabled: true,
-      foreground: '', visible: true, text: Sign up, font_size: 14, font: '', spacing_above: small,
+      foreground: '', visible: true, text: Sign up, font_size: 14, font: '', spacing_above: large,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: primary_color_2
@@ -70,8 +83,17 @@ components:
   properties: {role: headline, align: left, tooltip: '', border: '', foreground: '',
     visible: true, text: 'UBS
 
-      Investment banking company', font_size: 20, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
-    underline: true, icon: ''}
+      Investment banking company', font_size: 20, font: a, spacing_above: small, icon_align: left,
+    spacing_below: small, italic: false, background: '', bold: true, underline: true,
+    icon: ''}
   name: label_1
   layout_properties: {slot: title, grid_position: 'QBSMKX,VLRTYX'}
+- type: Label
+  properties: {role: text, align: center, tooltip: '', border: '', foreground: '',
+    visible: true, text: 'No . 1 peer to peer lending app in India
+
+      No Extra fees, No Fake Promises', font_size: 25, font: a, spacing_above: medium,
+    icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+    underline: false, icon: ''}
+  name: label_10
+  layout_properties: {slot: default}
