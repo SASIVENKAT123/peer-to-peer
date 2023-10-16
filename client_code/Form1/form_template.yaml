@@ -22,41 +22,45 @@ components:
   components:
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Borrow, font_size: null, font: '', spacing_above: small,
+      visible: true, text: Borrow, font_size: 16, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: label_3
     layout_properties: {}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Lend, font_size: 14, font: a, spacing_above: small, icon_align: left,
+      visible: true, text: Lend, font_size: 16, font: '', spacing_above: small, icon_align: left,
       spacing_below: small, italic: false, background: '', bold: false, underline: false,
       icon: ''}
     name: label_2
     layout_properties: {grid_position: 'SYCMHJ,EXPZAK'}
   - type: Label
-    properties: {}
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: How It works, font_size: 16, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
     name: label_4
     layout_properties: {slot: default}
   - type: Label
-    properties: {}
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: FAQ's, font_size: 16, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: false, underline: false,
+      icon: ''}
     name: label_5
     layout_properties: {slot: default}
   - type: Label
-    properties: {}
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Feedback, font_size: 16, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
     name: label_6
     layout_properties: {}
   - type: Label
-    properties: {}
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Chat With Us, font_size: 16, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
     name: label_7
-    layout_properties: {}
-  - type: Label
-    properties: {}
-    name: label_8
-    layout_properties: {}
-  - type: Label
-    properties: {}
-    name: label_9
     layout_properties: {}
   - type: Button
     properties: {role: secondary-color, align: center, tooltip: '', border: '', enabled: true,
