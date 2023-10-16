@@ -1,7 +1,7 @@
-from ._anvil_designer import Form4Template
+from ._anvil_designer import BorrowTemplate
 from anvil import *
 
-class Form4(Form4Template):
+class Borrow(BorrowTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

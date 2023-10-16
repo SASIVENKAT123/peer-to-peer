@@ -1,7 +1,7 @@
-from ._anvil_designer import Form5Template
+from ._anvil_designer import signupTemplate
 from anvil import *
 
-class Form5(Form5Template):
+class signup(signupTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

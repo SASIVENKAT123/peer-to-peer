@@ -1,7 +1,7 @@
-from ._anvil_designer import Form6Template
+from ._anvil_designer import loginTemplate
 from anvil import *
 
-class Form6(Form6Template):
+class login(loginTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

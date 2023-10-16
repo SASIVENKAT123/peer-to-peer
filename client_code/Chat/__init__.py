@@ -1,7 +1,7 @@
-from ._anvil_designer import Form10Template
+from ._anvil_designer import ChatTemplate
 from anvil import *
 
-class Form10(Form10Template):
+class Chat(ChatTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

@@ -1,7 +1,7 @@
-from ._anvil_designer import Form3Template
+from ._anvil_designer import FAQTemplate
 from anvil import *
 
-class Form3(Form3Template):
+class FAQ(FAQTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

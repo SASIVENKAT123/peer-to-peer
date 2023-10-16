@@ -36,13 +36,6 @@ components:
     layout_properties: {grid_position: 'SYCMHJ,EXPZAK'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: How It works, font_size: 16, font: '', spacing_above: small,
-      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-      underline: false, icon: ''}
-    name: label_4
-    layout_properties: {slot: default}
-  - type: Label
-    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: FAQ's, font_size: 16, font: '', spacing_above: small, icon_align: left,
       spacing_below: small, italic: false, background: '', bold: false, underline: false,
       icon: ''}

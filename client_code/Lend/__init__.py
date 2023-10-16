@@ -1,7 +1,7 @@
-from ._anvil_designer import Form8Template
+from ._anvil_designer import LendTemplate
 from anvil import *
 
-class Form8(Form8Template):
+class Lend(LendTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
