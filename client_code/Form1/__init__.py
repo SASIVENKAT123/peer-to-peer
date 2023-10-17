@@ -44,6 +44,26 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     open_form("signup")
 
+  def link_6_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    open_form("About")
+
+  def link_7_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    open_form("how")
+
+  def link_8_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    open_form("qf")
+
+  def link_9_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    open_form("t")
+
+
+
+
+
 
 
 

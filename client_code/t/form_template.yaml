@@ -1,0 +1,31 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {}
+  name: content_panel
+  layout_properties: {slot: default}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
+  components:
+  - type: Link
+    properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Back, font_size: 16, wrap_on: mobile, font: '', col_spacing: medium,
+      spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
+      italic: false, background: '', bold: false, underline: false, icon: 'fa:arrow-circle-left'}
+    name: link_1
+    layout_properties: {}
+    event_bindings: {click: link_1_click}
+- type: Label
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: 'UBS
+
+      Investment banking company', font_size: 20, font: a, spacing_above: small, icon_align: left,
+    spacing_below: small, italic: false, background: '', bold: false, underline: true,
+    icon: ''}
+  name: label_1
+  layout_properties: {slot: title}
