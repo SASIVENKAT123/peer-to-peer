@@ -17,12 +17,16 @@ class login(loginTemplate):
     open_form("Form1")
 
   def primary_color_1_click(self, **event_args):
+    
     """This method is called when the button is clicked"""
     email=self.text_box_1.text
     password=self.text_box_2.text
     anvil.server.call('add_login',email,password)
     
     alert("You have logged in successfully")
+def form_show(self, **event_args):
+    # Scroll button1 into view
+  self.primary_color_1_click().scroll_into_view()
     
 
   def text_box_1_pressed_enter(self, **event_args):
