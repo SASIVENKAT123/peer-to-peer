@@ -17,7 +17,7 @@ from datetime import datetime
 #   return 42
 #
 @anvil.server.callable
-def add_login(email,password,login_time):
+def add_login(email,password):
   app_tables.login.add_row(email=email,password=password,login_time=datetime.now())
   
   
