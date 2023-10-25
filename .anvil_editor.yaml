@@ -14,7 +14,8 @@ unique_ids:
     Feedback: '1697451240144139932314168.86597'
     qf: '169751544382484882643192.30821'
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1698226315334974451747401.3463'
   assets:
     standard-page.html: BMTNL257VGXOY7UB3M6EOO54ODPRUDQN
     theme.css: RELBBOL55VXZ54BGC473NTXFEQ7POSZ4

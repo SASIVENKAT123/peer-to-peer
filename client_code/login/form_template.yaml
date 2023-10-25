@@ -26,6 +26,7 @@ components:
     properties: {}
     name: text_box_1
     layout_properties: {grid_position: 'PUBCHE,HJLOQG'}
+    event_bindings: {pressed_enter: text_box_1_pressed_enter}
   - type: Label
     properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
       visible: true, text: 'Password :', font_size: 16, font: '', spacing_above: small,

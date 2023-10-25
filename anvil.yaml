@@ -1,7 +1,23 @@
 allow_embedding: false
 package_name: peer_to_peer
+db_schema:
+  login:
+    client: none
+    server: full
+    columns:
+    - name: email
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: password
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: login_time
+      admin_ui: {width: 200, order: 2}
+      type: datetime
+    title: login
+startup: {type: form, module: login}
 name: peer to peer
-startup_form: Form1
+startup_form: null
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 services:
